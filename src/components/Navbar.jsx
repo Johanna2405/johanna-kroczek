@@ -8,11 +8,11 @@ const Navbar = () => {
       <div className="flex gap-4 items-center">
         <p className="font-space text-lg text-red lowercase">Johanna Kroczek</p>
         <ul className="flex gap-4 font-space text-md text-light lowercase">
-          <li>
+          {/* <li>
             <a href="#about" className="hover:text-red">
               About
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#education" className="hover:text-red">
               Education
