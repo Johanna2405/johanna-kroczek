@@ -10,7 +10,7 @@ function App() {
     <div className="flex flex-col min-h-screen bg-dark">
       <Navbar />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Education />
       <Experience />
       <Footer />
