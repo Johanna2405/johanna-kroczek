@@ -6,11 +6,12 @@ export default {
       dark: "#1b1b1e",
       light: "#f5f4ed",
       orange: "#f85c32",
+      red: "#FF4F47",
     },
     fontFamily: {
       space: ["Space Grotesk", "sans-serif"],
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
