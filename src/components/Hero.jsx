@@ -8,7 +8,7 @@ import EmailIcon from "@mui/icons-material/Email";
 const Hero = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="flex flex-col justify-center items-center w-2/3 py-36 gap-8">
+      <div className="flex flex-col justify-center items-center w-full pt-40 md:pt-60 xl:pt-72 gap-8">
         <div>
           <img
             src="src/assets/johanna.png"
@@ -16,13 +16,14 @@ const Hero = () => {
             className="rounded-full shadow-sm w-32"
           />
         </div>
-        <h1 className="text-light font-space text-5xl lowercase">
+        <h1 className="text-light font-space text-5xl lowercase text-center">
           <Typewriter words={["Hey! My name is Johanna!"]} />
         </h1>
-        <h2 className="text-red font-light text-xl tracking-wide">
+        <h2 className="text-red font-light text-xl tracking-wide text-center">
           I'm a frontend developer with a design background.
         </h2>
-        <div className="flex gap-12 pt-24">
+
+        <div className="flex flex-col lg:flex-row gap-12 py-40 md:py-60 xl:py-72 md:items-start">
           <div className="flex flex-col gap-8 items-start justify-start">
             <h2 className="text-light font-space text-4xl lowercase grow border-b-2 border-red pb-4">
               About me

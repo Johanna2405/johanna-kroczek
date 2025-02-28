@@ -4,15 +4,10 @@ import EmailIcon from "@mui/icons-material/Email";
 
 const Navbar = () => {
   return (
-    <div className="flex px-10 py-4 gap-8 justify-between items-center sticky top-0 bg-dark z-50">
+    <div className="flex flex-wrap py-4 gap-8 justify-center md:justify-between items-center sticky top-0 bg-dark z-50 ">
       <div className="flex gap-4 items-center">
         <p className="font-space text-lg text-red lowercase">Johanna Kroczek</p>
         <ul className="flex gap-4 font-space text-md text-light lowercase">
-          {/* <li>
-            <a href="#about" className="hover:text-red">
-              About
-            </a>
-          </li> */}
           <li>
             <a href="#education" className="hover:text-red">
               Education
@@ -20,7 +15,7 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#experience" className="hover:text-red">
-              work experience
+              work
             </a>
           </li>
         </ul>

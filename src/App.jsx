@@ -7,13 +7,16 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-dark">
-      <Navbar />
-      <Hero />
-      {/* <About /> */}
-      <Education />
-      <Experience />
-      <Footer />
+    <div className="flex flex-col min-h-screen bg-dark overflow-x-hidden">
+      <div className="px-10">
+        <Navbar />
+      </div>
+      <div className="px-10 lg:px-52 xl:px-72">
+        <Hero />
+        <Education />
+        <Experience />
+        <Footer />
+      </div>
     </div>
   );
 }
