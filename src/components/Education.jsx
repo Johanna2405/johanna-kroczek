@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div className="flex flex-col px-72 py-20 gap-8" id="education">
+    <div className="flex flex-col py-20 gap-8" id="education">
       <h2 className="text-light font-space text-4xl lowercase text-left border-b-2 border-red pb-4">
         Education
       </h2>
@@ -14,10 +14,10 @@ const Education = () => {
             </h3>
           </div>
           <div className="collapse-content">
-            <p className="font-thin text-red tracking-wide px-8">
+            <p className="font-thin text-red tracking-wide px-4">
               12/2024 - 04/2025
             </p>
-            <ul className="list-disc list-inside py-4 font-thin tracking-wide text-light px-8">
+            <ul className="list-disc list-inside py-4 font-thin tracking-wide text-light px-4">
               <li>Frontend Development: JavaScript & React </li>
               <li>
                 Backend Development:Node.js, Express, PostgreSQL, MongoDB{" "}
@@ -36,10 +36,10 @@ const Education = () => {
             </h3>
           </div>
           <div className="collapse-content">
-            <p className="font-thin text-red tracking-wide px-8">
+            <p className="font-thin text-red tracking-wide px-4">
               02/2023 - 2026
             </p>
-            <ul className="list-disc list-inside py-4 font-thin tracking-wide text-light px-8">
+            <ul className="list-disc list-inside py-4 font-thin tracking-wide text-light px-4">
               <li>Independent Distance Learning Degree</li>
               <li>Fundamentals of Computer Science and Programming</li>
               <li>Modules on Design, Usability, and Use of Digital Media</li>
@@ -55,10 +55,10 @@ const Education = () => {
             </h3>
           </div>
           <div className="collapse-content">
-            <p className="font-thin text-red tracking-wide px-8">
+            <p className="font-thin text-red tracking-wide px-4">
               10/2016 - 03/2020
             </p>
-            <ul className="list-disc list-inside py-4 font-thin tracking-wide text-light px-8">
+            <ul className="list-disc list-inside py-4 font-thin tracking-wide text-light px-4">
               <li>Final Grade: 1.6 (German grading system)</li>
               <li>
                 Fundamentals of Modern Design: Typography, Layout, Color Theory,

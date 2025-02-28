@@ -1,10 +1,10 @@
 const Experience = () => {
   return (
-    <div className="flex flex-col px-72 pt-20 pb-40 gap-8" id="experience">
+    <div className="flex flex-col pt-20 pb-40 gap-8" id="experience">
       <h2 className="text-light font-space text-4xl lowercase text-left border-b-2 border-red pb-4">
         work expierience
       </h2>
-      <div className="flex gap-4 items-start py-8">
+      <div className="flex flex-col gap-4 items-start py-8">
         <div
           tabIndex={0}
           className="collapse collapse-arrow border-light bg-dark border p-4"
