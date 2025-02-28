@@ -3,3 +3,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Change the default arrow color */
+.collapse-arrow {
+  color: #f5f4ed !important;
+}
