@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="flex flex-col justify-center items-center w-full pt-40 md:pt-60 xl:pt-72 gap-8">
         <div>
           <img
-            src="src/assets/johanna.png"
+            src="../assets/johanna.png"
             alt="Johanna"
             className="rounded-full shadow-sm w-32"
           />
