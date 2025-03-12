@@ -37,7 +37,8 @@ const Hero = () => {
             <div className="flex gap-4 items-center">
               <a
                 className="px-4 py-2 border mr-4 border-red rounded-xl text-light font-space lowercase text-lg hover:border-light "
-                href="#"
+                href="src/assets/CV-JohannaKroczek.pdf"
+                target="_blank"
               >
                 <DownloadForOfflineIcon
                   style={{ fontSize: 32, color: "#f5f4ed", paddingRight: 10 }}
